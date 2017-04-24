@@ -1,0 +1,35 @@
+{
+  "name": "defd",
+  "version": "1.0.0",
+  "description": "Tiny extension for native Promises to make them more suitable for Node core APIs.",
+  "main": "index.js",
+  "dependencies": {
+    "npromise": "^1.0.4"
+  },
+  "devDependencies": {
+    "tap": "^10.3.2"
+  },
+  "scripts": {
+    "test": "tap test.js",
+    "cover": "npm test -- --cov --coverage-report=lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarzkopfb/defd.git"
+  },
+  "keywords": [
+    "promise",
+    "deferred",
+    "extension",
+    "done",
+    "callback",
+    "error-first",
+    "native"
+  ],
+  "author": "Schwarzkopf Balázs <schwarzkopfb@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schwarzkopfb/defd/issues"
+  },
+  "homepage": "https://github.com/schwarzkopfb/defd#readme"
+}
