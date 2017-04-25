@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Tiny extension for native Promises to make them more suitable for Node core APIs.",
   "main": "index.js",
-  "dependencies": {
-    "npromise": "^1.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "tap": "^10.3.2"
   },
